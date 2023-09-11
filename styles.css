@@ -1,3 +1,25 @@
+
+/* CSS RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+  
 body,
 html {
   width: 100vh;
@@ -9,6 +31,7 @@ h1 {
 }
 p {
   font-family: "Quicksand";
+
 }
 /* Section 1 */
 nav ul {
@@ -116,12 +139,66 @@ nav ul li a {
   align-items: center;
 }
 
+/* Section 3 */
+.grid-container {
+    color: #FFFFFF;
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    
+}
+.grid-item {
+    border: none;
+}
+
+#leftImgThree, #rightImgThree{
+    padding: 0;
+    
+
+}
+#firstImgThree {
+    margin-left: 30px;
+    
+}
+#secondImgThree {
+    margin-right: 30px;
+}
+#textThreeLeft, #textThreeRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+   
+}
+#textThreeLeft {
+    background-color: #ECB57C;
+    margin-left: 30px;
+
+
+}
+#textThreeRight {
+    background-color: #837770;
+    margin-right: 30px;
+}
+
+.button {
+    background-color: #F6A44E;
+    font-size: 2rem;
+    padding: 15px;
+    border-radius: 30px;
+    
+  }
+  
 .sec2 h2 {
   color: #f6a44e;
   font-size: 2.5em;
   font-weight: 700;
   letter-spacing: 5px;
   margin-bottom: 2%;
+
 }
 
 .sec2 #text_claim {
@@ -175,7 +252,6 @@ nav ul li a {
   margin-bottom: 2%;
 }
 
-/* Section 3 */
 
 /* Section 4 */
 
