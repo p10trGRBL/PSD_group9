@@ -148,12 +148,16 @@ nav ul li a {
 }
 #text-h1 h1 {
   font-size: 3.5em;
-  color: #d07d34;
-  font-size: bold;
+  color: #f3a071;
+  font-weight: 900;
+  text-shadow: 1px 1px 2px grey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 #text-h1 h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-style: italic;
+  text-shadow: 1px 1px 2px grey;
 }
 #text-but {
   display: flex;
@@ -169,8 +173,9 @@ nav ul li a {
   background-color: white;
   opacity: 60%;
   color: rgb(92, 8, 8);
-  font-weight: bold;
+  font-weight: 800;
   margin-bottom: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #text-but p {
   font-weight: 500;
@@ -313,7 +318,19 @@ nav ul li a {
 /* Section 5 */
 
 /* Section 6 */
+#page-6 {
+  background-image: url(assets/design_3.png);
+  background-size: 30%;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 600px;
+  padding: 200px;
+  background-position: bottom 100px right 50px;
+}
 
+#page-6 {
+  text-align: center;
+}
 /* Section 7 */
 
 /* Section 8 */
