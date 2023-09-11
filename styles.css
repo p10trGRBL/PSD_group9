@@ -1,25 +1,93 @@
-
 /* CSS RESET */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-  
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
 body,
 html {
   width: 100vh;
@@ -31,7 +99,6 @@ h1 {
 }
 p {
   font-family: "Quicksand";
-
 }
 /* Section 1 */
 nav ul {
@@ -141,64 +208,53 @@ nav ul li a {
 
 /* Section 3 */
 .grid-container {
-    color: #FFFFFF;
-    display: grid;
-    grid-template-columns: auto auto;
-    
-    
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: auto auto;
 }
 .grid-item {
-    border: none;
+  border: none;
 }
 
-#leftImgThree, #rightImgThree{
-    padding: 0;
-    
-
+#leftImgThree,
+#rightImgThree {
+  padding: 0;
 }
 #firstImgThree {
-    margin-left: 30px;
-    
+  margin-left: 30px;
 }
 #secondImgThree {
-    margin-right: 30px;
+  margin-right: 30px;
 }
-#textThreeLeft, #textThreeRight {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    
-    
-   
+#textThreeLeft,
+#textThreeRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #textThreeLeft {
-    background-color: #ECB57C;
-    margin-left: 30px;
-
-
+  background-color: #ecb57c;
+  margin-left: 30px;
 }
 #textThreeRight {
-    background-color: #837770;
-    margin-right: 30px;
+  background-color: #837770;
+  margin-right: 30px;
 }
 
 .button {
-    background-color: #F6A44E;
-    font-size: 2rem;
-    padding: 15px;
-    border-radius: 30px;
-    
-  }
-  
+  background-color: #f6a44e;
+  font-size: 2rem;
+  padding: 15px;
+  border-radius: 30px;
+}
+
 .sec2 h2 {
   color: #f6a44e;
   font-size: 2.5em;
   font-weight: 700;
   letter-spacing: 5px;
   margin-bottom: 2%;
-
 }
 
 .sec2 #text_claim {
@@ -252,7 +308,6 @@ nav ul li a {
   margin-bottom: 2%;
 }
 
-
 /* Section 4 */
 
 /* Section 5 */
@@ -263,70 +318,68 @@ nav ul li a {
 
 /* Section 8 */
 .container-fluid {
-    background-color: #87776f;
-    padding: 4%;
-  }
-  .container-fluid1 {
-    background-color: #fdb671;
-    padding: 1%;
-    align-content: center;
-  }
-  .footer-row {
-    border: 0px solid white;
-    padding: 10px;
-  }
-  .footer-col-3 a {
-    color: white;
-    font-weight: 500;
-    border: 0px solid white;
-    padding: 5px;
-  }
-  .footer-col-3 ul {
-    list-style: none;
-    border: 0px solid white;
-    padding: 20px;
-  }
-  .footer-col-3 p {
-    font-weight: 500;
-    color: white;
-    border: 0px solid white;
-    padding: 5px;
-  }
-.footer-col-12 h2{
-color: white;
-display: flex;
-justify-content: center;
-align-items: center;
+  background-color: #87776f;
+  padding: 4%;
 }
-.footer-col-12 p{
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 400;
-    }
-.footer-col-12 form{
-    color: black;
-    justify-content: center;
-    align-items: center;
-    }
-.footer-col-12 input{
-        color: black;
-        justify-content: center;
-        align-items: center;
-        width: 400px;
-        border-radius: 20px;
-        padding: 8px;
+.container-fluid1 {
+  background-color: #fdb671;
+  padding: 1%;
+  align-content: center;
 }
-.footer-col-12 button{
-        color: black;
-        justify-content: center;
-        align-items: center;
-        border-radius: 20px;
-        padding: 8px;
-        color: white;
-        background-color: #54534d;
-        width: 120px;
-    }
-
-
+.footer-row {
+  border: 0px solid white;
+  padding: 10px;
+}
+.footer-col-3 a {
+  color: white;
+  font-weight: 500;
+  border: 0px solid white;
+  padding: 5px;
+}
+.footer-col-3 ul {
+  list-style: none;
+  border: 0px solid white;
+  padding: 20px;
+}
+.footer-col-3 p {
+  font-weight: 500;
+  color: white;
+  border: 0px solid white;
+  padding: 5px;
+}
+.footer-col-12 h2 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-col-12 p {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+}
+.footer-col-12 form {
+  color: black;
+  justify-content: center;
+  align-items: center;
+}
+.footer-col-12 input {
+  color: black;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  border-radius: 20px;
+  padding: 8px;
+}
+.footer-col-12 button {
+  color: black;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 8px;
+  color: white;
+  background-color: #54534d;
+  width: 120px;
+}
