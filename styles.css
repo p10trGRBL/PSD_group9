@@ -187,3 +187,71 @@ nav ul li a {
 /* Section 7 */
 
 /* Section 8 */
+.container-fluid {
+    background-color: #87776f;
+    padding: 4%;
+  }
+  .container-fluid1 {
+    background-color: #fdb671;
+    padding: 1%;
+    align-content: center;
+  }
+  .footer-row {
+    border: 0px solid white;
+    padding: 10px;
+  }
+  .footer-col-3 a {
+    color: white;
+    font-weight: 500;
+    border: 0px solid white;
+    padding: 5px;
+  }
+  .footer-col-3 ul {
+    list-style: none;
+    border: 0px solid white;
+    padding: 20px;
+  }
+  .footer-col-3 p {
+    font-weight: 500;
+    color: white;
+    border: 0px solid white;
+    padding: 5px;
+  }
+.footer-col-12 h2{
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.footer-col-12 p{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    }
+.footer-col-12 form{
+    color: black;
+    justify-content: center;
+    align-items: center;
+    }
+.footer-col-12 input{
+        color: black;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        border-radius: 20px;
+        padding: 8px;
+}
+.footer-col-12 button{
+        color: black;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        padding: 8px;
+        color: white;
+        background-color: #54534d;
+        width: 120px;
+    }
+
+
