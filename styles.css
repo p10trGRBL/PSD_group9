@@ -1,23 +1,190 @@
+body,
+html {
+  width: 100vh;
+  height: auto;
+  background-color: white;
+}
+h1 {
+  font-family: "Poppins";
+}
+p {
+  font-family: "Quicksand";
+}
 /* Section 1 */
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
 
+nav ul li {
+  padding-left: 4rem;
+}
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em;
+}
+#page-1 {
+  background-image: url("assets/picture1.png");
+  width: 100vw;
+  height: 900px;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+#page1-text {
+  width: 50%;
+  height: auto;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: self-start;
+}
+#text-h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: self-start;
+  margin-bottom: 3rem;
+}
+#text-h1 h1 {
+  font-size: 3.5em;
+  color: #d07d34;
+  font-size: bold;
+}
+#text-h1 h3 {
+  font-size: 2rem;
+  font-style: italic;
+}
+#text-but {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: self-start;
+}
+#text-but button {
+  width: 200px;
+  height: 50px;
+  border-radius: 35px;
+  border: none;
+  background-color: white;
+  opacity: 60%;
+  color: rgb(92, 8, 8);
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+#text-but p {
+  font-weight: 500;
+}
+#with-logo {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 1rem;
+  background-image: url("assets/picture1_shape_bottom.png");
+}
 
+.searchbar input {
+  width: 200px;
+  height: 2rem;
+  border-radius: 35px;
+  border: none;
+  background-color: grey;
+  margin-top: 1rem;
+}
+#with-nav {
+  padding-left: 200px;
+  margin-top: 2rem;
+}
 /* Section 2 */
 
+.sec2 {
+  /*   background-color: rgb(200, 249, 215); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sec2 h2 {
+  color: #f6a44e;
+  font-size: 2.5em;
+  font-weight: 700;
+  letter-spacing: 5px;
+  margin-bottom: 2%;
+}
+
+.sec2 #text_claim {
+  /*   width: 45%;
+  text-align: center;
+  vertical-align: middle; */
+  color: #837870;
+  font-size: 1.2em;
+  line-height: 1.2;
+  margin-bottom: 2%;
+}
+
+.sec2 #threecards {
+  background-color: rgb(246, 156, 45);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 7%;
+  margin-bottom: 2%;
+}
+
+.sec2 #threecards .small_card {
+  /*   display: flex;
+  flex-direction: column; */
+  /*   margin: 0px 10px; */
+}
+
+.sec2 #threecards .small_card .card_img {
+  width: auto;
+}
+
+.sec2 #threecards .small_card .card_text {
+  min-height: 100px;
+  max-width: 180px;
+  background-color: #837870;
+  color: white;
+  /*   display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+
+.sec2 button {
+  width: 200px;
+  color: rgb(255, 255, 255);
+  background-color: #837870;
+  font-size: 1em;
+  font-weight: 700;
+  letter-spacing: 5px;
+  border: none;
+  border-radius: 15px;
+  padding: 5px;
+  margin-bottom: 2%;
+}
 
 /* Section 3 */
 
-
 /* Section 4 */
-
 
 /* Section 5 */
 
-
 /* Section 6 */
 
-
 /* Section 7 */
-
 
 /* Section 8 */
 .container-fluid {
